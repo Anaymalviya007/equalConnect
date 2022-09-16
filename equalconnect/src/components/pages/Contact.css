@@ -1,0 +1,129 @@
+.text-box-ct {
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: large;
+  background-color: #fff;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.info {
+  text-align: center;
+  padding: 6rem 1rem;
+  background-color: #fff;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.info h1 {
+  padding-bottom: 3vh;
+  font-size: 6vh;
+  font-weight: bold;
+}
+
+.info h3 {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.info p {
+  padding-bottom: 2vh;
+  font-size: medium;
+  
+}
+
+
+#t {
+  color: rgb(71, 70, 70);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.for h1, p{
+text-align: center;
+}
+.fot label{
+display:block;
+margin:1em 0 .2em;
+}
+/* single-line text, checkbox, and button */
+.for input, select, textarea{
+display:block;
+width:100%;
+padding:.3em;
+font-size:20px;
+background-color:#fbfbfb;
+border:solid 1px #CCC;
+resize:vertical;
+}
+.for textarea{
+min-height:180px;
+}
+.for select{
+color:indigo;
+}
+.for option{
+color:blue;
+background: lavenderBlush;
+}
+.for input[type=checkbox]{
+display:inline;
+width:auto;
+color:red;
+}
+
+.for input[type=submit]{
+background:lightcoral;
+margin:1em 0 0;
+color:white;
+border:none;
+border-radius:8px;
+transition:all .3s ease-out;
+}
+
+.for input:focus,
+.for input:hover,
+.for select:focus,
+.for select:hover,
+.for textarea:focus,
+.for textarea:hover{
+background: lavenderBlush;
+}
+
+/* hover and focus states */
+.for input[type=submit]:hover,
+.for input[type=submit]:focus{
+background: lightgreen;
+outline:none;
+}
+
+@media screen and (min-width:600px) {
+/*  make the form 2 columns */
+.for form:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+.column{
+  width:50%;
+  padding:1em;
+  float:left;
+}
+}
+
+
+
+
+
+
+
+

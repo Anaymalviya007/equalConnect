@@ -1,0 +1,72 @@
+.about {
+  font-size: 6rem;
+  color: aliceblue;
+  text-align: center;
+}
+
+.our-mission h1 {
+  margin-top: 5rem;
+  text-align: center;
+    font-size: 4rem;
+}
+
+.our-mission p {
+  text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.core {
+  padding-top: 7rem;  
+  text-align: center;
+  font-size: large;
+}
+
+.core h1{
+  font-weight: bold;
+}
+
+
+.core p {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
+.core li {
+  padding-bottom: 2vh;
+  font-weight: bold;
+}
+
+.b-divider {
+  margin: auto;
+  margin-top: 3px;
+  width: 20%;
+  position: relative;
+
+}
+
+.b-divider .shadow {
+  overflow: hidden;
+  height: 20px;
+}
+
+.b-divider .shadow:after {
+  content: "";
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px/12px;
+  box-shadow: 0 0 8px #fb2056;
+}
+
+
+
+.exp {
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: large;
+  background-color: #eeededed;
+}
+
